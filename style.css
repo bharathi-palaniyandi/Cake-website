@@ -1,0 +1,635 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.marquee22 {
+    background:linear-gradient(to left,#000,#ee0979);
+    padding: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.nav{
+background: linear-gradient(380deg,#ffff 39%,#E62727 10% );
+}
+
+.cakes {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.cakes h1{
+        font-size: 80px;
+        text-transform: capitalize;
+        font-weight: 700;
+        background: linear-gradient(10deg,#ee0979 25%,#F0DE36 49%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+} 
+
+.cakes h4{
+       font-size: 70px;
+        text-transform: capitalize;
+        font-weight: 700;
+        background: linear-gradient(10deg,#ee0979 25%,#FEFBC7 49%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+}
+/* carousel */
+
+.caro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    background-color: #dd659f;
+    height: 90vh;
+}
+
+.carousel {
+    width: 80%;
+    height: 70vh;
+    box-shadow: 10px 20px 10px rgb(243, 239, 239);
+}
+
+iframe{
+     width: 100%;
+    height: 70vh; 
+
+}
+.shop img{
+   transition: transform 0.5s ease;
+}
+.shop img:hover{
+ transform: scale(1.1)
+}
+.card-shop{
+    border: 1px solid black;
+    width: 550px;
+    box-shadow: 10px 10px 10px rgb(189, 185, 185);
+      border-radius: 10px;
+      border: none;
+      background-color: white;
+    
+}
+
+.bg{
+    background-color: rgb(238, 233, 233);
+}
+.card-shop img{
+    height: 170px;
+    padding: 10px;
+    border-radius: 75%;
+    transition: transform 0.5s ease;
+   transform: scale(1.1)
+
+}
+.cal{
+     text-transform: capitalize;
+        font-weight: 700;
+        background: linear-gradient(390deg,#ee0979 49%,#000 49%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+}
+.card-shop img:hover{
+     transform: scale(1.1)
+}
+.super h3{
+    margin-left: 80px;
+}
+.super button{
+    margin-left: 50%;
+    margin-top: 10px;
+    background-color: #ee0979;
+    color:white;
+    border: none;
+}
+.duudy{
+     text-transform: capitalize;
+        font-weight: 700;
+        background: linear-gradient(390deg,#ee0979 49%,#000 49%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+}
+.navimg{
+    background-color: black;
+}
+.shop img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px
+}
+/* product */
+
+.orooo{
+     text-transform: capitalize;
+        font-weight: 700;
+        background: linear-gradient(390deg,#ee0979 49%,#000 49%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+}
+#price{
+    text-decoration: line-through;
+    font-weight: 100;
+}
+strong{
+    color: green;
+}
+.card{
+    position: relative;
+}
+.card h6{
+    position: absolute;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+   width: 84px;
+   padding: 5px;
+    margin-top: 10px;
+    margin-left: 9px;
+    border: none;
+}
+
+.superbt button{
+     margin-left: 75%;
+    margin-top: 10px;
+    background-color: #ee0979;
+    color:white;
+    border: none;
+}
+.info h4{
+    font-weight: 700;
+    color: black;
+    border: 2px solid red;
+    width: 130px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.coustomer h4{
+    font-weight: 700;
+    color: black;
+    border: 2px solid red;
+    width: 200px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.cate h4{
+    font-weight: 700;
+    color: black;
+    border: 2px solid red;
+    width: 130px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.contact h4{
+     font-weight: 700;
+    color:black;
+    border: 2px solid red;
+    width: 130px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+/* .proimg{
+      transition: transform 2s ease;
+}
+.proimg:hover{
+    transform: scale(1.1);
+} */
+.card{
+     transition: transform 2s ease;
+}
+.card:hover{
+      transform: scale(1.1);
+}
+
+/*   ABOUT     */
+.apply h1{
+   font-size: 70px;
+        text-transform: capitalize;
+        font-weight: 700;
+        background: linear-gradient(390deg,#ee0979 49%,#000 49%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        
+}
+
+
+.apply{
+    background-color: #FFF9AF;
+}
+.abopara{
+    text-transform: capitalize;
+        font-weight: 700;
+        background: linear-gradient(330deg,#ee0979 50%,#000 49%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+}
+marquee{
+    background-color: white;
+}
+
+.aboimg{
+    height: 300px;
+}
+.marimg{
+    width: 700px;
+    margin-left: 25%;
+}
+.small{
+    font-weight: 700;
+    text-transform: capitalize;
+    background: linear-gradient(330deg,#ee0979 50%,#000 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.kind{
+    width: 900px;
+    margin-left: 15%;
+    font-size: 20px;
+    text-align: center;
+   
+   
+}
+.paraimg img{
+    height: 440px;
+    width: 700px;
+}
+.para22 p{
+    width: 500px;
+    
+}
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    font-size: 17px;
+}
+
+/* product */
+
+.protitele{
+    background-color: #FFF9AF;
+    padding-bottom: 20px;
+   
+}
+.protitele h1{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-weight: 700;
+    background: linear-gradient(330deg,#ee0979 50%,#000 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    text-align: center;
+    font-size: 70px;
+}
+.iiii{
+    text-align: center ;
+    font-size: 30px;
+}
+.protitele p{
+    width: 700px;
+    text-align: center;
+    margin-left: 25%;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* contact */
+
+.nagarpara h4{
+    color: red;
+    font-size: 25px;
+    
+
+}
+.nagarpara p{
+    font-weight: 500;
+    font-size: 17px;
+}
+.nagarpara22 h4{
+    color: red;
+    font-size: 25px;
+}
+.nagarpara22 p{
+ font-weight: 500;
+    font-size: 17px;
+}   
+.nagarpara33 h4{
+     color: red;
+    font-size: 25px;
+}
+.nagarpara33 p{
+     font-weight: 500;
+    font-size: 17px;
+}
+.nagarpara33{
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.ckkeinput h4{
+     color: red;
+    font-size: 25px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    text-transform: capitalize;
+    margin-top: 20px !important;
+    border-left:none ;
+    border-top:none ;
+    border-right:none ;
+    padding-left: 30px;
+    font-weight: 600;
+    margin-left: 20px !important;
+}
+textarea{
+margin-top: 30px !important;
+padding-left: 30px;
+padding-top: 30px;
+text-transform: capitalize;
+font-weight: 600;
+color: rgb(73, 72, 72);
+border-top: none;
+border-right: none;
+border-left: none;
+}
+.cake-nagar{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+ .ckkeinput button{
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-left: 70%;
+ }
+#dashboard-items .card {
+  transition: transform 0.2s ease;
+}
+
+#dashboard-items .card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+}
+
+@media(max-width:768px){
+ .card-shop{
+    border: 1px solid black;
+    width: 300px;
+    box-shadow: 10px 10px 10px rgb(189, 185, 185);
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: -40px;
+    
+}
+.super h3{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.super button{
+    margin-left: 22%;
+    margin-top: 10px;
+    background-color: #ee0979;
+    color:white;
+    border: none;
+}
+.nav{
+background: linear-gradient(#c9c9c9  );
+}
+
+.cal{
+    font-size: 20px;
+}
+
+.caro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    background-color: #dd659f;
+    height: 70vh;
+}
+.carousel {
+    width: 80%;
+    height: 50vh;
+    box-shadow: 10px 20px 10px rgb(243, 239, 239);
+}
+
+iframe{
+     width: 100%;
+    height: 50vh; 
+
+
+
+}
+.info{
+    margin-left: 40px;
+ }
+ 
+ .contact{
+      margin-left: 40px;
+ }
+ .cate{
+    margin-left: -30px;
+ }
+ .coustomer{
+    margin-left: 10px;
+ }
+.kind{
+    width: 300px;
+    margin-left: 10%;
+    font-size: 20px;
+    text-align: justify;
+   
+   
+} 
+.paraimg img{
+    height: 440px;
+    width: 300px;
+}
+.para22 p{
+    width: 300px;
+    text-align: justify;
+    
+}
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    font-size: 17px;
+}
+.marimg{
+    width: 300px;
+    margin-left:8%;
+}
+.small{
+  
+    text-transform: capitalize;
+    background: linear-gradient(330deg,#ee0979 50%,#000 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    text-align: center;
+     font-size: 20px !important;  
+}
+.ckkeinput h4{
+     color: red;
+    font-size: 25px;
+    margin-left: 20px;
+}
+textarea{
+margin-top: 30px !important;
+padding-left: 30px;
+padding-top: 30px;
+text-transform: capitalize;
+font-weight: 600;
+color: rgb(73, 72, 72);
+border-top: none;
+border-right: none;
+border-left: none;
+width: 300px;
+}
+.cake-nagar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 50px;
+}
+.ckkeinput button{
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-left: 50%;
+ }
+ .nagarpara33{
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.protitele p{
+    width: 300px;
+    text-align: center;
+    margin-left: 10%;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.apply h1{
+       font-size: 50px;
+        text-transform: capitalize;
+        font-weight: 700;
+        background: linear-gradient(390deg,#ee0979 49%,#000 49%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        
+}
+.protitele h1{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-weight: 700;
+    background: linear-gradient(330deg,#ee0979 50%,#000 49%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+
+  
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+

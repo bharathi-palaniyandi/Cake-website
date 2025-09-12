@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="pages">
+
+    <nav class="navbar navbar-expand-lg bg- text-white nav">
+      <div class="container-fluid">
+        <a class="navbar-brand fst-italic text-capitalize fw-bold fs-1" href="./home.html">saravana's <i
+            class="fa-solid fa-heart-pulse fa-beat" style="color: #ff0000;"></i> cakes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active me-2 fs-5  text-white   fw-medium" aria-current="page"
+                href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active me-3 fs-5  text-white text-capitalize  fw-medium" href="./about.html">about
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active me-3 fs-5  text-white text-capitalize fw-medium" href="./product.html">our
+                product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active me-3 fs-5  text-white text-capitalize fw-medium"
+                href="./contact.html">contact</a>
+            </li>
+            <li class="nav-item  ">
+              <a class="nav-link  active me-3 fs-5  text-white text-capitalize fw-medium" href="./index.html">login</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link  active dropdown-toggle me-3  text-white fs-5  fw-medium" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                our collections
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./birth.html">birthday cakes</a></li>
+                <li><a class="dropdown-item" href="./wed.html">wedding cakes</a></li>
+
+                <li><a class="dropdown-item" href="./fird.html">friendship cakes</a></li>
+              </ul>
+            </li>
+           <li class="nav-item dropdown">
+  <a class="nav-link position-relative text-white" href="#" id="cartDropdown" role="button"
+    data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fa-solid fa-cart-shopping fa-lg"></i>
+    <span id="cart-count"
+      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></span>
+  </a>
+  <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="cartDropdown" style="min-width: 300px;">
+    <li>
+      <h6 class="dropdown-header">Your Cart</h6>
+    </li>
+    <div id="cart-items" class="px-2"></div>
+    <li>
+      <hr class="dropdown-divider">
+    </li>
+    <li>
+      <div class="px-2">Total: ₹<span id="total-price"></span></div>
+    </li>
+  </ul>
+</li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container-fluid" data-aos="fade-up" data-aos-duration="1800">
+    <div class="protitele">
+      <h1>our friendship cakes</h1>
+      <div class="iiii">
+        <i class="fa-solid fa-star fa-beat " style="color: #00f028;"></i>
+        <i class="fa-solid fa-star fa-beat" style="color: #00f028;"></i>
+        <i class="fa-solid fa-star fa-beat" style="color: #00f028;"></i>
+        <i class="fa-solid fa-star fa-beat" style="color: #00f028;"></i>
+        <i class="fa-solid fa-star fa-beat" style="color: #00f028;"></i>
+      </div>
+      <p>At Theobroma, we offer a wide range of products, both sweet & savoury. Our offerings include indulgent
+        brownies, cakes & desserts, artisanal breads, puffs & quiches, wholesome sandwiches, wraps & rolls, beverages
+        and more.</p>
+    </div>
+
+    <!-- product -->
+   
+
+
+<!-- Cart  -->
+<div class="container mt-5">
+  <h2>Add to Card </h2>
+  <div id="dashboard-items" class="row"></div>
+  <div class="mt-3">
+    <h4>Total Amount: ₹<span id="dashboard-total">0</span></h4>
+  </div>
+</div>
+<span id="cart-count" class="position-absolute top-0  translate-middle badge rounded-pill bg-danger">0</span>
+<span class="-price1"></span>
+
+
+    <div class="container justify-content-center " data-aos="fade-up" data-aos-duration="1800">
+      
+      <div class="product mt-5 ">
+        <div class="row">
+          <div class="col mb-4  d-flex justify-content-center">
+            <div class="card" style="width: 21rem;">
+             
+              <img src="./image/frd1.webp" class="card-img-top proimg "
+                style="height: 300px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center text-capitalize fst-italic">butter scratch </h5>
+                <p class="card-text fw-bold ms-4 text-center price1">₹400 <span id="price">₹700</span> <strong>10% offer</strong></p>
+                <p class="text-center">★ ★ ★ ★ ☆</p>
+                <button href="#" class="btn btn-dark w-75 ms-4 text-capitalize fw-bold">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4  d-flex justify-content-center">
+            <div class="card" style="width: 21rem;">
+              <h6>Bestseller</h6>
+              <img src="./image/frd2.webp" class="card-img-top proimg "
+                style="height: 300px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center text-capitalize fst-italic">fruit-overload </h5>
+               <p class="card-text fw-bold ms-4 text-center">₹400 <span id="price">₹700</span> <strong>10% offer</strong></p>
+                <p class="text-center">★ ★ ★ ★ ☆</p>
+                <button href="#" class="btn btn-dark w-75 ms-4 text-capitalize fw-bold">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4  d-flex justify-content-center">
+            <div class="card" style="width: 21rem;">
+             
+              <img src="./image/frd3.webp" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center text-capitalize fst-italic">chocolate </h5>
+              <p class="card-text fw-bold ms-4 text-center">₹400 <span id="price">₹700</span> <strong>10% offer</strong></p>
+                <p class="text-center">★ ★ ★ ★ ☆</p>
+                <button href="#" class="btn btn-dark w-75 ms-4 text-capitalize fw-bold">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4  d-flex justify-content-center">
+            <div class="card" style="width: 21rem;">
+              <h6>Bestseller</h6>
+              <img src="./image/frd4.webp" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center text-capitalize fst-italic">blueberry-cake </h5>
+                <p class="card-text fw-bold ms-4 text-center">₹400 <span id="price">₹700</span> <strong>10% offer</strong></p>
+                <p class="text-center">★ ★ ★ ★ ☆</p>
+                <button href="#" class="btn btn-dark w-75 ms-4 text-capitalize fw-bold">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4  d-flex justify-content-center">
+            <div class="card" style="width: 21rem;">
+              <h6>Bestseller</h6>
+              <img src="./image/birth6.webp" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center text-capitalize fst-italic">black-forest </h5>
+              <p class="card-text fw-bold ms-4 text-center">₹400 <span id="price">₹700</span> <strong>10% offer</strong></p>
+                <p class="text-center">★ ★ ★ ★ ☆</p>
+                <button href="#" class="btn btn-dark w-75 ms-4 text-capitalize fw-bold">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4  d-flex justify-content-center">
+            <div class="card" style="width: 21rem;">
+              
+              <img src="./image/birth7.webp" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center text-capitalize fst-italic">vennila-cake </h5>
+              <p class="card-text fw-bold ms-4 text-center">₹400 <span id="price">₹700</span> <strong>10% offer</strong></p>
+                <p class="text-center">★ ★ ★ ★ ☆</p>
+                <button href="#" class="btn btn-dark w-75 ms-4 text-capitalize fw-bold">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4  d-flex justify-content-center">
+            <div class="card" style="width: 21rem;">
+              <img src="./image/ani7.webp" class="card-img-top proimg " style="height: 300px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center text-capitalize fst-italic">butter scratch </h5>
+               <p class="card-text fw-bold ms-4 text-center">₹400 <span id="price">₹700</span> <strong>10% offer</strong></p>
+                <p class="text-center">★ ★ ★ ★ ☆</p>
+                <button href="#" class="btn btn-dark w-75 ms-4 text-capitalize fw-bold">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4  d-flex justify-content-center">
+            <div class="card" style="width: 21rem;">
+              <h6>Bestseller</h6>
+              <img src="./image/ani5.webp8.webp" class="card-img-top proimg " style="height: 300px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center text-capitalize fst-italic">fruit-overload </h5>
+               <p class="card-text fw-bold ms-4 text-center">₹400 <span id="price">₹700</span> <strong>10% offer</strong></p>
+                <p class="text-center">★ ★ ★ ★ ☆</p>
+                <button href="#" class="btn btn-dark w-75 ms-4 text-capitalize fw-bold">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4  d-flex justify-content-center">
+            <div class="card" style="width: 21rem;">
+              
+              <img src="./image/ani9.webp" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center text-capitalize fst-italic">chocolate </h5>
+              <p class="card-text fw-bold ms-4 text-center">₹400 <span id="price">₹700</span> <strong>10% offer</strong></p>
+                <p class="text-center">★ ★ ★ ★ ☆</p>
+                <button href="#" class="btn btn-dark w-75 ms-4 text-capitalize fw-bold">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid  mt-5  bg-secondary text-white" data-aos="fade-up" data-aos-duration="1800">
+      <h1 class=" p-3 ">saravana's <i class="fa-solid fa-heart-pulse fa-beat" style="color: black"></i> cakes</h1>
+      <div class="row">
+        <div class="col-lg-3 col-12 mt-5  d-flex justify-content-center">
+          <div class="info ">
+            <h4>Information</h4>
+            <p>About Us</p>
+            <p>Loyalty Discount Program</p>
+            <p>Delivery Information</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Copyright And Trademark Policy</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 mt-5 d-flex justify-content-center">
+          <div class="coustomer">
+            <h4>Customer Service</h4>
+            <p>Contact Us</p>
+            <p>Gift Vouchers</p>
+            <p>Specials</p>
+            <p>Site Map</p>
+            <p>Returns</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 mt-5 d-flex justify-content-center">
+          <div class="cate">
+            <h4>Categories</h4>
+            <p>All Products</p>
+            <p>Same day Delivery</p>
+            <p>X-Mas/New Year Cakes</p>
+            <p>Shape Cakes</p>
+            <p>All occasion cakes</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 mt-5 d-flex justify-content-center">
+          <div class="contact">
+            <h4>Contact Us</h4>
+            <p> <i class="fa-solid fa-phone"></i> 9943248579</p>
+            <p> <i class="fa-solid fa-envelope"></i> bharathibalakpm98@gmail.com</p>
+            <p> <i class="fa-solid fa-location-dot"></i> location</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+  </script>
+  <!-- AOS JS -->
+   <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js">
+  </script>
+    <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
